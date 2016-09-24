@@ -7,7 +7,7 @@
 body {
     background: #b3dbe8;
     color: #000;
-    font-family: sans-serif; /*   add fonts here   */
+    font-family: Lato, "Open Sans", Verdana, Geneva, sans-serif;
     font-size: 100%; /* DO NOT change */
     margin: 0; /* DO NOT change */
 }
@@ -48,7 +48,7 @@ aside {
 
 h1, h2 {
     margin: 0;
-    font-family: serif;  /*   add fonts here   */
+    font-family: Lato, "Open Sans", Verdana, Geneva, serif;
 }
 
 article h1 {
@@ -111,3 +111,34 @@ aside a:focus, aside a:hover {
 }
 
 /* media queries */
+
+@media (max-width: 600px) {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #container {
+      margin: 0;
+      padding: 0;
+    }
+
+    #sidebar2 {
+      margin: 0;
+      padding: 0;
+    }
+
+    #top-image-container {  display: none; }
+
+    aside {
+      float: left;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    article {
+      float: left;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+}
