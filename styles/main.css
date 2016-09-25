@@ -124,7 +124,7 @@ aside a:focus, aside a:hover {
 
     #sidebar2 {
       margin: 0;
-      padding: 0;
+      padding: 30px;
     }
 
     #top-image-container {  display: none; }
@@ -133,12 +133,12 @@ aside a:focus, aside a:hover {
       float: left;
       width: 100%;
       margin: 0;
-      padding: 0;
+      padding: 30px;
     }
     article {
       float: left;
       width: 100%;
       margin: 0;
-      padding: 0;
+      padding: 30px;
     }
 }
