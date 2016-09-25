@@ -7,7 +7,7 @@
 body {
     background: #b3dbe8;
     color: #000;
-    font-family: Lato, "Open Sans", Verdana, Geneva, sans-serif;
+    font-family: Merriweather, Georgia, sans-serif;
     font-size: 100%; /* DO NOT change */
     margin: 0; /* DO NOT change */
 }
@@ -48,7 +48,7 @@ aside {
 
 h1, h2 {
     margin: 0;
-    font-family: Lato, "Open Sans", Verdana, Geneva, serif;
+    font-family: Lato, Verdana, Geneva, serif;
 }
 
 article h1 {
