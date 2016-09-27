@@ -7,7 +7,7 @@
 body {
     background: #b3dbe8;
     color: #000;
-    font-family: Merriweather, Georgia, sans-serif;
+    font-family: Merriweather, Verdana, Geneva, sans-serif;
     font-size: 100%; /* DO NOT change */
     margin: 0; /* DO NOT change */
 }
@@ -48,7 +48,7 @@ aside {
 
 h1, h2 {
     margin: 0;
-    font-family: Lato, Verdana, Geneva, serif;
+    font-family: Lato, Georgia, serif;
 }
 
 article h1 {
@@ -112,33 +112,15 @@ aside a:focus, aside a:hover {
 
 /* media queries */
 
-@media (max-width: 600px) {
-    body {
+@media (max-width: 800px) {
+    body, aside, article {
+      float: left;
+      width: 100%;
       margin: 0;
-      padding: 0;
-    }
-    #container {
+        }
+    #container, #sidebar2 {
       margin: 0;
-      padding: 0;
     }
-
-    #sidebar2 {
-      margin: 0;
-      padding: 30px;
-    }
-
     #top-image-container {  display: none; }
 
-    aside {
-      float: left;
-      width: 100%;
-      margin: 0;
-      padding: 30px;
-    }
-    article {
-      float: left;
-      width: 100%;
-      margin: 0;
-      padding: 30px;
-    }
 }
